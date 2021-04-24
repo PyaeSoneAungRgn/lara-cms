@@ -8,7 +8,7 @@
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-between space-x-2 items-end mb-2">
+                <div class="flex justify-between space-x-2 items-end mb-2 px-1 md:px-0">
                     <jet-input
                         id="search"
                         type="text"
