@@ -14,7 +14,12 @@ class ContactController extends Controller
     public function index(Request $request)
     {
         return Inertia::render('Contact/Index', [
-            'contacts' => Contact::search($request->get('search'))->orderByDesc('updated_at')->paginate(10),
+            'contacts' => Contact::search($request->get('search'))
+                ->orderByDesc('updated_at')
+                ->paginate(10)
+                ->appends([
+                    'search' => $request->get('search')
+                ]),
             'search' => $request->get('search')
         ]);
     }
