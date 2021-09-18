@@ -6,7 +6,7 @@ A demo application made with Laravel Jetstream (Inertia + Vue).
 
 ## Demo
 
-[https://lara-cms.pyaesoneaung.tech](https://lara-cms.pyaesoneaung.tech/)
+[https://lara-cms.pyaesoneaung.dev](https://lara-cms.pyaesoneaung.dev/)
 
 ## Installation
 
